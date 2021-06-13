@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+}
+body{
+	background-color: #fafafa;
+}
+
+.submit-btn a,
+.submit-btn a:hover{
+color: #fff;
+text-decoration: none;
+height: 32px;
+width: 280px;
+}
+
+
+.content-aria{
+margin-top: 150px;
+}
+.image-area img{
+height: 618px;
+position:absolute;
+    top: 12%;
+    left: 27.6%;
+}
+.input-area{
+background-color: #fff;
+border: 1px solid #e1e1e1;
+text-align: center;
+    width: 350px;
+    height: 380px;
+}
+.input-area img{
+height: 100px;
+width: auto;
+}
+input[type=text]{
+margin-bottom: 10px;
+height: 40px;
+width: 280px;
+border: 1px solid #e1e1e1;
+border-radius: 2px;
+font-size: 13px;
+padding: 10px;
+}
+input[type=password]{
+margin-bottom: 10px;
+height: 40px;
+width: 280px;
+border: 1px solid #e1e1e1;
+border-radius: 2px;
+font-size: 13px;
+padding: 10px;
+}
+.submit-btn{
+height: 32px;
+width: 280px;
+background-color: #0095f6;
+border: none;
+color: #fff;
+border-radius: 4px;
+}
+.or-with-border{
+color: #e1e1e1;
+text-transform: uppercase;
+}
+.left-border{
+width: 110px;
+color: #000;
+margin-top: 22px;
+margin-left: 35px;
+}
+.or-with-border h4{
+margin-top: -26px;
+font-size: 16px;
+}
+.right-border{
+width: 110px;
+color: #000;
+margin-top: -17px;
+margin-left: 195px;
+}
+.fb-login{
+margin-top: 30px;
+}
+.fb-login a{
+text-decoration: none;
+color: #385185;
+font-weight: 500;
+font-size: 15px;
+}
+.fb-login i{
+color: #0e5888;
+}
+.forget-pass{
+margin-top: 15px;
+}
+.forget-pass a{
+color: #385185;
+font-size: 14px;
+text-decoration: none;
+}
+.sign-up-box{
+background-color: #fff;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    width: 350px;
+    height: 63px;
+    margin-top: 20px;
+    padding: 18px 0px;
+    font-size: 14px;
+}
+.sign-up-box p a{
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
+footer{
+	    position: absolute;
+    bottom: 4%;
+    left: 35%;
+}
+.get-app-section{
+	    margin-top: 20px;
+}
+.get-app-section{
+	    max-width: 340px;
+    text-align: center;
+}
+.store-icon{
+	display: flex;
+	padding-left: 35px;
+}
+.store-icon img{
+	    width: 136px;
+    height: 40px;
+}
+
+
+
+
+
+
